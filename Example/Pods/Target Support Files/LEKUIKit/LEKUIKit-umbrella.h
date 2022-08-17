@@ -10,6 +10,11 @@
 #endif
 #endif
 
+#import "LKBaseViewController.h"
+#import "NSString+MD5.h"
+#import "UIImage+GradientColor.h"
+#import "LKUIMacro.h"
+#import "LEKUIKit.h"
 
 FOUNDATION_EXPORT double LEKUIKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char LEKUIKitVersionString[];

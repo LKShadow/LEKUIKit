@@ -1,7 +1,7 @@
 {
   "name": "LEKUIKit",
   "version": "0.1.0",
-  "summary": "A short description of LEKUIKit.",
+  "summary": "常用的UI组件封装以及一些宏定义",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/LKShadow/LEKUIKit",
   "license": {
@@ -16,7 +16,8 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "9.0"
   },
-  "source_files": "LEKUIKit/Classes/**/*"
+  "source_files": "LEKUIKit/Classes/**/*",
+  "frameworks": "UIKit"
 }
