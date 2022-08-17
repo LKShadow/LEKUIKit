@@ -25,7 +25,7 @@ TODO: 常用的UI组件封装以及一些宏定义 Add long description of the p
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'LKShadow' => '807642441@qq.com' }
-  s.source           = { :git => 'https://github.com/LKShadow/LEKUIKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:LKShadow/LEKUIKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
