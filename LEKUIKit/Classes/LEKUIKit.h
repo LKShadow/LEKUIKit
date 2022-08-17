@@ -14,14 +14,14 @@
 #import <LEKUIKit/NSString+MD5.h>
 #import <LEKUIKit/UIImage+GradientColor.h>
 #import <LEKUIKit/LKBaseViewController.h>
-
+#import <LEKUIKit/NSObject+BundleImage.h>
 #else
 
 #import "LKUIMacro.h"
 #import "NSString+MD5.h"
 #import "UIImage+GradientColor.h"
 #import "LKBaseViewController.h"
-
+#import "NSObject+BundleImage.h"
 #endif /* __has_include */
 
 #endif /* LEKUIKit_h */
