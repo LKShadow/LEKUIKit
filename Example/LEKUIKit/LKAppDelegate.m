@@ -7,12 +7,19 @@
 //
 
 #import "LKAppDelegate.h"
+#import "LKViewController.h"
 
 @implementation LKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    LKViewController *vc = [[LKViewController alloc] init];
+    UINavigationController *navc = [[UINavigationController alloc] initWithRootViewController:vc];
+    self.window.rootViewController = navc;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

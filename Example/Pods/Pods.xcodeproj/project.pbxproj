@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A7862AFCB9E6B1C7B44FC2A6C89878 /* Pods-LEKUIKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 153A14E036BFA9C467448DB291D52B0B /* Pods-LEKUIKit_Tests-dummy.m */; };
+		519CF93581BEB7BA16393E2468AF9DD7 /* Pods-LEKUIKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1919D043E3F499587117D3C08C831382 /* Pods-LEKUIKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E3040DF0A98E7F98B6F1595BC24CD70 /* Pods-LEKUIKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43E3B653EE863782F291B08DA9CC3E34 /* Pods-LEKUIKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C6B254671FD6E13880D035ADE8D3692 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		87D8FB76CFFBBD945AD65A5B567819F3 /* LEKUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39C1FBF9F3450899B374EB94D95E8763 /* LEKUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A524197CF818DB19E24ECA1E7B4CB365 /* Pods-LEKUIKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2496B77D56E21DD81E0D9EB9CAA4838 /* Pods-LEKUIKit_Example-dummy.m */; };
+		D003299C28AC91A4005A625B /* LKUIMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = D003299328AC91A4005A625B /* LKUIMacro.h */; };
+		D003299D28AC91A4005A625B /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = D003299528AC91A4005A625B /* NSString+MD5.h */; };
+		D003299E28AC91A4005A625B /* UIImage+GradientColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D003299628AC91A4005A625B /* UIImage+GradientColor.m */; };
+		D003299F28AC91A4005A625B /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = D003299728AC91A4005A625B /* NSString+MD5.m */; };
+		D00329A028AC91A4005A625B /* UIImage+GradientColor.h in Headers */ = {isa = PBXBuildFile; fileRef = D003299828AC91A4005A625B /* UIImage+GradientColor.h */; };
+		D00329A128AC91A4005A625B /* LKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D003299A28AC91A4005A625B /* LKBaseViewController.m */; };
+		D00329A228AC91A4005A625B /* LKBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D003299B28AC91A4005A625B /* LKBaseViewController.h */; };
+		D00329A428AC91BD005A625B /* LEKUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D00329A328AC91BD005A625B /* LEKUIKit.h */; };
+		D218241C19735328B2FA52F9D9B1726A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E19F497726BADEF91AA35F46048F2261 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E699448410C382DB11C6835DD71AE335 /* LEKUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D97F9056C786B03D130C41BC47CDC5 /* LEKUIKit-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56972E8F7BE10FE1C6562E7EDA2AE72D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CDFC2AF28F0BE41E567FAADCFED29AF;
+			remoteInfo = "Pods-LEKUIKit_Example";
+		};
+		E756E637BFF5FF70CA725134B6EFA24C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 117081C55BA419F434F95FBF61848A0B;
+			remoteInfo = LEKUIKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08A9E9B282C8757D1DB967E63A722AE8 /* Pods-LEKUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEKUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1347CABAF7A3ECFB67CF0CBB736B1C2C /* Pods-LEKUIKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LEKUIKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		153A14E036BFA9C467448DB291D52B0B /* Pods-LEKUIKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LEKUIKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		1919D043E3F499587117D3C08C831382 /* Pods-LEKUIKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LEKUIKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		1ABD98EE21E53B2D18D20C6D1F5B0DCE /* LEKUIKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LEKUIKit; path = LEKUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21ADED3DD0C3B20CDA7789BD47FF9FF5 /* LEKUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LEKUIKit.modulemap; sourceTree = "<group>"; };
+		2A4CBD74CA913CFA37368F38290D9118 /* LEKUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LEKUIKit.release.xcconfig; sourceTree = "<group>"; };
+		2F3683AF50CE63F5DCA319A45C7E44B8 /* Pods-LEKUIKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEKUIKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3489F55335BD046FD579702E19FF7A76 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		39C1FBF9F3450899B374EB94D95E8763 /* LEKUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LEKUIKit-umbrella.h"; sourceTree = "<group>"; };
+		3B042EB5CBF89A0A4AE0A3114D4A2A59 /* Pods-LEKUIKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LEKUIKit_Tests"; path = Pods_LEKUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4072B36C079D2BDF724D16C84392ED70 /* Pods-LEKUIKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LEKUIKit_Example.modulemap"; sourceTree = "<group>"; };
+		43E3B653EE863782F291B08DA9CC3E34 /* Pods-LEKUIKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LEKUIKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		51144317AF71BA955073644A5C64D6F8 /* LEKUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LEKUIKit-Info.plist"; sourceTree = "<group>"; };
+		6A4D1A477F9D728FECF1AD06C944A9B2 /* Pods-LEKUIKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEKUIKit_Example-Info.plist"; sourceTree = "<group>"; };
+		6C3411A8454C9B32659E8604DFE046BC /* Pods-LEKUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEKUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74E90F07859032DA6049337BEB4F4784 /* Pods-LEKUIKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LEKUIKit_Example"; path = Pods_LEKUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7676DB2C2D413F6B868DFF90BA37FDCF /* LEKUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LEKUIKit.debug.xcconfig; sourceTree = "<group>"; };
+		782DF88D1B968B8775263070CF94B4F3 /* Pods-LEKUIKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEKUIKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		824F404199E14C5EE90C2E18AF44F4F8 /* Pods-LEKUIKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEKUIKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		98212240D25546C657B926CB24DC8219 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2496B77D56E21DD81E0D9EB9CAA4838 /* Pods-LEKUIKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LEKUIKit_Example-dummy.m"; sourceTree = "<group>"; };
+		A41BE72A91991ADE8A36F4D8D6615EAA /* Pods-LEKUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEKUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B445B428C41546A6F30B372F98005CF7 /* Pods-LEKUIKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LEKUIKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B81139CB5E0FD19A4ACB7E2D195190CA /* LEKUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LEKUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BA0332F1AAD02D6F985BB012DD727B23 /* Pods-LEKUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEKUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D003299328AC91A4005A625B /* LKUIMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKUIMacro.h; sourceTree = "<group>"; };
+		D003299528AC91A4005A625B /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		D003299628AC91A4005A625B /* UIImage+GradientColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GradientColor.m"; sourceTree = "<group>"; };
+		D003299728AC91A4005A625B /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		D003299828AC91A4005A625B /* UIImage+GradientColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GradientColor.h"; sourceTree = "<group>"; };
+		D003299A28AC91A4005A625B /* LKBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKBaseViewController.m; sourceTree = "<group>"; };
+		D003299B28AC91A4005A625B /* LKBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKBaseViewController.h; sourceTree = "<group>"; };
+		D00329A328AC91BD005A625B /* LEKUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LEKUIKit.h; path = LEKUIKit/Classes/LEKUIKit.h; sourceTree = "<group>"; };
+		DFDC2B8B306477A5440FAB158D2B11AD /* LEKUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LEKUIKit-prefix.pch"; sourceTree = "<group>"; };
+		E1B8230AD753BA001A1913C2EDE49F8E /* Pods-LEKUIKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LEKUIKit_Tests.modulemap"; sourceTree = "<group>"; };
+		E7CDAA6AB45F85940E327338E5F520B2 /* Pods-LEKUIKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LEKUIKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F8D97F9056C786B03D130C41BC47CDC5 /* LEKUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LEKUIKit-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38C41CF0C25F970797837BE8497E0D3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C6B254671FD6E13880D035ADE8D3692 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C215D8AD1096AE40A7192BC7626BADB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D218241C19735328B2FA52F9D9B1726A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6BF867BB65C428DD43237B6ECABED12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19F497726BADEF91AA35F46048F2261 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15ADFCD73EE600DFBA6523BBE2B8F650 /* Pods-LEKUIKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4072B36C079D2BDF724D16C84392ED70 /* Pods-LEKUIKit_Example.modulemap */,
+				E7CDAA6AB45F85940E327338E5F520B2 /* Pods-LEKUIKit_Example-acknowledgements.markdown */,
+				2F3683AF50CE63F5DCA319A45C7E44B8 /* Pods-LEKUIKit_Example-acknowledgements.plist */,
+				A2496B77D56E21DD81E0D9EB9CAA4838 /* Pods-LEKUIKit_Example-dummy.m */,
+				1347CABAF7A3ECFB67CF0CBB736B1C2C /* Pods-LEKUIKit_Example-frameworks.sh */,
+				6A4D1A477F9D728FECF1AD06C944A9B2 /* Pods-LEKUIKit_Example-Info.plist */,
+				1919D043E3F499587117D3C08C831382 /* Pods-LEKUIKit_Example-umbrella.h */,
+				08A9E9B282C8757D1DB967E63A722AE8 /* Pods-LEKUIKit_Example.debug.xcconfig */,
+				A41BE72A91991ADE8A36F4D8D6615EAA /* Pods-LEKUIKit_Example.release.xcconfig */,
+			);
+			name = "Pods-LEKUIKit_Example";
+			path = "Target Support Files/Pods-LEKUIKit_Example";
+			sourceTree = "<group>";
+		};
+		183BC829B976D310DE9F96BD0D87773F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				15ADFCD73EE600DFBA6523BBE2B8F650 /* Pods-LEKUIKit_Example */,
+				9AB7CC8E9F6BFD0F7B4059D22E9CF7A3 /* Pods-LEKUIKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		43BC107DF3A9E1D3E7511431C0F74074 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC307566E8C114B4AF41DACEADEB7DFA /* LEKUIKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		87C1F34FBD0A8DF3C88E62680928DA42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ABD98EE21E53B2D18D20C6D1F5B0DCE /* LEKUIKit */,
+				74E90F07859032DA6049337BEB4F4784 /* Pods-LEKUIKit_Example */,
+				3B042EB5CBF89A0A4AE0A3114D4A2A59 /* Pods-LEKUIKit_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AB7CC8E9F6BFD0F7B4059D22E9CF7A3 /* Pods-LEKUIKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E1B8230AD753BA001A1913C2EDE49F8E /* Pods-LEKUIKit_Tests.modulemap */,
+				B445B428C41546A6F30B372F98005CF7 /* Pods-LEKUIKit_Tests-acknowledgements.markdown */,
+				782DF88D1B968B8775263070CF94B4F3 /* Pods-LEKUIKit_Tests-acknowledgements.plist */,
+				153A14E036BFA9C467448DB291D52B0B /* Pods-LEKUIKit_Tests-dummy.m */,
+				824F404199E14C5EE90C2E18AF44F4F8 /* Pods-LEKUIKit_Tests-Info.plist */,
+				43E3B653EE863782F291B08DA9CC3E34 /* Pods-LEKUIKit_Tests-umbrella.h */,
+				6C3411A8454C9B32659E8604DFE046BC /* Pods-LEKUIKit_Tests.debug.xcconfig */,
+				BA0332F1AAD02D6F985BB012DD727B23 /* Pods-LEKUIKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-LEKUIKit_Tests";
+			path = "Target Support Files/Pods-LEKUIKit_Tests";
+			sourceTree = "<group>";
+		};
+		CC428AF238CBC60E309B5DA16F67F564 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B81139CB5E0FD19A4ACB7E2D195190CA /* LEKUIKit.podspec */,
+				98212240D25546C657B926CB24DC8219 /* LICENSE */,
+				3489F55335BD046FD579702E19FF7A76 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				43BC107DF3A9E1D3E7511431C0F74074 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				87C1F34FBD0A8DF3C88E62680928DA42 /* Products */,
+				183BC829B976D310DE9F96BD0D87773F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D003299228AC91A4005A625B /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				D003299328AC91A4005A625B /* LKUIMacro.h */,
+			);
+			name = Commons;
+			path = LEKUIKit/Classes/Commons;
+			sourceTree = "<group>";
+		};
+		D003299428AC91A4005A625B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D003299528AC91A4005A625B /* NSString+MD5.h */,
+				D003299628AC91A4005A625B /* UIImage+GradientColor.m */,
+				D003299728AC91A4005A625B /* NSString+MD5.m */,
+				D003299828AC91A4005A625B /* UIImage+GradientColor.h */,
+			);
+			name = Category;
+			path = LEKUIKit/Classes/Category;
+			sourceTree = "<group>";
+		};
+		D003299928AC91A4005A625B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D003299A28AC91A4005A625B /* LKBaseViewController.m */,
+				D003299B28AC91A4005A625B /* LKBaseViewController.h */,
+			);
+			name = Base;
+			path = LEKUIKit/Classes/Base;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC307566E8C114B4AF41DACEADEB7DFA /* LEKUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				D00329A328AC91BD005A625B /* LEKUIKit.h */,
+				D003299928AC91A4005A625B /* Base */,
+				D003299428AC91A4005A625B /* Category */,
+				D003299228AC91A4005A625B /* Commons */,
+				CC428AF238CBC60E309B5DA16F67F564 /* Pod */,
+				FE030D05BE4E2815D6417E3D34CA28F7 /* Support Files */,
+			);
+			name = LEKUIKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FE030D05BE4E2815D6417E3D34CA28F7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				21ADED3DD0C3B20CDA7789BD47FF9FF5 /* LEKUIKit.modulemap */,
+				F8D97F9056C786B03D130C41BC47CDC5 /* LEKUIKit-dummy.m */,
+				51144317AF71BA955073644A5C64D6F8 /* LEKUIKit-Info.plist */,
+				DFDC2B8B306477A5440FAB158D2B11AD /* LEKUIKit-prefix.pch */,
+				39C1FBF9F3450899B374EB94D95E8763 /* LEKUIKit-umbrella.h */,
+				7676DB2C2D413F6B868DFF90BA37FDCF /* LEKUIKit.debug.xcconfig */,
+				2A4CBD74CA913CFA37368F38290D9118 /* LEKUIKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LEKUIKit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7E8B3BDA41B546093CFA13980F73BA6A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E3040DF0A98E7F98B6F1595BC24CD70 /* Pods-LEKUIKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9D40AD198E7AC85052B9D458BA0A9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				519CF93581BEB7BA16393E2468AF9DD7 /* Pods-LEKUIKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70B4646E1DC36F9FB8F4DC5BEF25811 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00329A228AC91A4005A625B /* LKBaseViewController.h in Headers */,
+				D003299C28AC91A4005A625B /* LKUIMacro.h in Headers */,
+				87D8FB76CFFBBD945AD65A5B567819F3 /* LEKUIKit-umbrella.h in Headers */,
+				D00329A028AC91A4005A625B /* UIImage+GradientColor.h in Headers */,
+				D00329A428AC91BD005A625B /* LEKUIKit.h in Headers */,
+				D003299D28AC91A4005A625B /* NSString+MD5.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		117081C55BA419F434F95FBF61848A0B /* LEKUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89C5D1EB211E2F8E6A2484A090E44212 /* Build configuration list for PBXNativeTarget "LEKUIKit" */;
+			buildPhases = (
+				F70B4646E1DC36F9FB8F4DC5BEF25811 /* Headers */,
+				2B316FA14D6B9B614FC0120CF46A609B /* Sources */,
+				38C41CF0C25F970797837BE8497E0D3B /* Frameworks */,
+				BA685C7135125B02363C0A9569699DC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LEKUIKit;
+			productName = LEKUIKit;
+			productReference = 1ABD98EE21E53B2D18D20C6D1F5B0DCE /* LEKUIKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		3B05FB82120755A763B976FC11F2553C /* Pods-LEKUIKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D6327C027DBEACE6C1D38759C080B88 /* Build configuration list for PBXNativeTarget "Pods-LEKUIKit_Tests" */;
+			buildPhases = (
+				7E8B3BDA41B546093CFA13980F73BA6A /* Headers */,
+				C16E2DE4CF7F021B7DCAC4091B665CA4 /* Sources */,
+				D6BF867BB65C428DD43237B6ECABED12 /* Frameworks */,
+				10D5CC3095200C02D343DC9651CAE8E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E68C5DFD705A7C72585A9DB2C70B107 /* PBXTargetDependency */,
+			);
+			name = "Pods-LEKUIKit_Tests";
+			productName = Pods_LEKUIKit_Tests;
+			productReference = 3B042EB5CBF89A0A4AE0A3114D4A2A59 /* Pods-LEKUIKit_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		3CDFC2AF28F0BE41E567FAADCFED29AF /* Pods-LEKUIKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B722F9464432D7280315249D8EB326E /* Build configuration list for PBXNativeTarget "Pods-LEKUIKit_Example" */;
+			buildPhases = (
+				CD9D40AD198E7AC85052B9D458BA0A9B /* Headers */,
+				B6D443468D3B416483FEA06A42C534FF /* Sources */,
+				C215D8AD1096AE40A7192BC7626BADB0 /* Frameworks */,
+				4DF3F13E77C567C44A6F2C6016796AA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D3A7345452AAE764F1F518B4BE51E94 /* PBXTargetDependency */,
+			);
+			name = "Pods-LEKUIKit_Example";
+			productName = Pods_LEKUIKit_Example;
+			productReference = 74E90F07859032DA6049337BEB4F4784 /* Pods-LEKUIKit_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 87C1F34FBD0A8DF3C88E62680928DA42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				117081C55BA419F434F95FBF61848A0B /* LEKUIKit */,
+				3CDFC2AF28F0BE41E567FAADCFED29AF /* Pods-LEKUIKit_Example */,
+				3B05FB82120755A763B976FC11F2553C /* Pods-LEKUIKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10D5CC3095200C02D343DC9651CAE8E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF3F13E77C567C44A6F2C6016796AA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA685C7135125B02363C0A9569699DC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B316FA14D6B9B614FC0120CF46A609B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D003299F28AC91A4005A625B /* NSString+MD5.m in Sources */,
+				E699448410C382DB11C6835DD71AE335 /* LEKUIKit-dummy.m in Sources */,
+				D00329A128AC91A4005A625B /* LKBaseViewController.m in Sources */,
+				D003299E28AC91A4005A625B /* UIImage+GradientColor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D443468D3B416483FEA06A42C534FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A524197CF818DB19E24ECA1E7B4CB365 /* Pods-LEKUIKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C16E2DE4CF7F021B7DCAC4091B665CA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A7862AFCB9E6B1C7B44FC2A6C89878 /* Pods-LEKUIKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E68C5DFD705A7C72585A9DB2C70B107 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LEKUIKit_Example";
+			target = 3CDFC2AF28F0BE41E567FAADCFED29AF /* Pods-LEKUIKit_Example */;
+			targetProxy = 56972E8F7BE10FE1C6562E7EDA2AE72D /* PBXContainerItemProxy */;
+		};
+		5D3A7345452AAE764F1F518B4BE51E94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LEKUIKit;
+			target = 117081C55BA419F434F95FBF61848A0B /* LEKUIKit */;
+			targetProxy = E756E637BFF5FF70CA725134B6EFA24C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		232E06932C5945CCBE22373CD242A410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08A9E9B282C8757D1DB967E63A722AE8 /* Pods-LEKUIKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LEKUIKit_Example/Pods-LEKUIKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LEKUIKit_Example/Pods-LEKUIKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3ABDD8300658CE3E1FD87EFE94D9DA16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7676DB2C2D413F6B868DFF90BA37FDCF /* LEKUIKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LEKUIKit/LEKUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LEKUIKit/LEKUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LEKUIKit/LEKUIKit.modulemap";
+				PRODUCT_MODULE_NAME = LEKUIKit;
+				PRODUCT_NAME = LEKUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5454CD6777F9EFF187EB2FBC217E3C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A4CBD74CA913CFA37368F38290D9118 /* LEKUIKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LEKUIKit/LEKUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LEKUIKit/LEKUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LEKUIKit/LEKUIKit.modulemap";
+				PRODUCT_MODULE_NAME = LEKUIKit;
+				PRODUCT_NAME = LEKUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B2BCBAEB787DD23A2BF55430B7D8104F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA0332F1AAD02D6F985BB012DD727B23 /* Pods-LEKUIKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LEKUIKit_Tests/Pods-LEKUIKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LEKUIKit_Tests/Pods-LEKUIKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C3A6222F2BB3A5F29E662687BFF503B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C3411A8454C9B32659E8604DFE046BC /* Pods-LEKUIKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LEKUIKit_Tests/Pods-LEKUIKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LEKUIKit_Tests/Pods-LEKUIKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DFD1D815F2B9DCBB313236F3EC6F23DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A41BE72A91991ADE8A36F4D8D6615EAA /* Pods-LEKUIKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LEKUIKit_Example/Pods-LEKUIKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LEKUIKit_Example/Pods-LEKUIKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B722F9464432D7280315249D8EB326E /* Build configuration list for PBXNativeTarget "Pods-LEKUIKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				232E06932C5945CCBE22373CD242A410 /* Debug */,
+				DFD1D815F2B9DCBB313236F3EC6F23DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89C5D1EB211E2F8E6A2484A090E44212 /* Build configuration list for PBXNativeTarget "LEKUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ABDD8300658CE3E1FD87EFE94D9DA16 /* Debug */,
+				5454CD6777F9EFF187EB2FBC217E3C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D6327C027DBEACE6C1D38759C080B88 /* Build configuration list for PBXNativeTarget "Pods-LEKUIKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3A6222F2BB3A5F29E662687BFF503B7 /* Debug */,
+				B2BCBAEB787DD23A2BF55430B7D8104F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
