@@ -8,6 +8,7 @@
 
 #import "LKAppDelegate.h"
 #import "LKViewController.h"
+#import <LEKUIKit/LKBaseNavigaiotnController.h>
 
 @implementation LKAppDelegate
 
@@ -17,7 +18,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     LKViewController *vc = [[LKViewController alloc] init];
-    UINavigationController *navc = [[UINavigationController alloc] initWithRootViewController:vc];
+    UINavigationController *navc = [[LKBaseNavigaiotnController alloc] initWithRootViewController:vc];
     self.window.rootViewController = navc;
     [self.window makeKeyAndVisible];
     return YES;

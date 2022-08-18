@@ -24,6 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		7A23A6D905E75B6F494CDD68 /* Pods_LEKUIKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C7A3B26D706064ED849905 /* Pods_LEKUIKit_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		D00329BB28ADE9F8005A625B /* LKSecondeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D00329BA28ADE9F8005A625B /* LKSecondeController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,8 @@
 		7B71323C7E4050A409200888 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		886F4BAF95BB36457F06254D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D00329B928ADE9F8005A625B /* LKSecondeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKSecondeController.h; sourceTree = "<group>"; };
+		D00329BA28ADE9F8005A625B /* LKSecondeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKSecondeController.m; sourceTree = "<group>"; };
 		D233984B87D9E1A30B308474 /* Pods-LEKUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEKUIKit_Example.release.xcconfig"; path = "Target Support Files/Pods-LEKUIKit_Example/Pods-LEKUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DCCDD251A3CB11C37CDD8348 /* Pods_LEKUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LEKUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF00561DAC8CB69258B72DEB /* Pods-LEKUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEKUIKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LEKUIKit_Tests/Pods-LEKUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +140,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* LKViewController.h */,
 				6003F5A6195388D20070C39A /* LKViewController.m */,
+				D00329B928ADE9F8005A625B /* LKSecondeController.h */,
+				D00329BA28ADE9F8005A625B /* LKSecondeController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -364,6 +369,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D00329BB28ADE9F8005A625B /* LKSecondeController.m in Sources */,
 				6003F59E195388D20070C39A /* LKAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LKViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

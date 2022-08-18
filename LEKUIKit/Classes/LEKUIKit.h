@@ -15,6 +15,10 @@
 #import <LEKUIKit/UIImage+GradientColor.h>
 #import <LEKUIKit/LKBaseViewController.h>
 #import <LEKUIKit/NSObject+BundleImage.h>
+#import <LEKUIKit/LKBaseNavigaiotnController.h>
+#import <LEKUIKit/LKBaseViewController.h>
+
+
 #else
 
 #import "LKUIMacro.h"
@@ -22,6 +26,8 @@
 #import "UIImage+GradientColor.h"
 #import "LKBaseViewController.h"
 #import "NSObject+BundleImage.h"
+#import "LKBaseNavigaiotnController.h"
+#import "LKBaseViewController.h"
 #endif /* __has_include */
 
 #endif /* LEKUIKit_h */

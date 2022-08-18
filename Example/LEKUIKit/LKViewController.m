@@ -7,7 +7,7 @@
 //
 
 #import "LKViewController.h"
-
+#import "LKSecondeController.h"
 @interface LKViewController ()
 
 @end
@@ -19,6 +19,10 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"首页";
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [self.navigationController pushViewController:[LKSecondeController new] animated:YES];
 }
 
 - (void)didReceiveMemoryWarning

@@ -1,8 +1,8 @@
 {
   "name": "LEKUIKit",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "常用的UI组件封装以及一些宏定义",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "TODO: 常用的UI组件封装以及一些宏定义 Add long description of the pod here.",
   "homepage": "https://github.com/LKShadow/LEKUIKit",
   "license": {
     "type": "MIT",
@@ -12,8 +12,8 @@
     "LKShadow": "807642441@qq.com"
   },
   "source": {
-    "git": "https://github.com/LKShadow/LEKUIKit.git",
-    "tag": "0.1.0"
+    "git": "git@github.com:LKShadow/LEKUIKit.git",
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "9.0"
