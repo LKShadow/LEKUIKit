@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LEKUIKit'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = '常用的UI组件封装以及一些宏定义'
 
 # This description is used to generate tags and improve search results.
