@@ -11,9 +11,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LKBaseNavigaiotnController : UINavigationController
 
-/** 导航栏返回是否隐藏 文字 默认隐藏 yes*/
-@property (nonatomic, assign) BOOL hideNavLeftTitle;
-
 
 @end
 

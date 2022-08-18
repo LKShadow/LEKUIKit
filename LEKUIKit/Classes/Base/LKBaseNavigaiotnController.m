@@ -15,16 +15,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _hideNavLeftTitle = YES;
 }
 
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
-    if (self.hideNavLeftTitle) {
-        UIBarButtonItem *backItem = [[UIBarButtonItem alloc] init];
-        backItem.title = @"";
-        backItem.image = [UIImage new];
-        viewController.navigationItem.backBarButtonItem = backItem;
-    }
+    UIBarButtonItem *backItem = [[UIBarButtonItem alloc] init];
+    backItem.title = @"";
+    backItem.image = [UIImage new];
+    viewController.navigationItem.backBarButtonItem = backItem;
     [super pushViewController:viewController animated:animated];
 }
 
